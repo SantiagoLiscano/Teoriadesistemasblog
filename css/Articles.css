@@ -1,0 +1,51 @@
+body{
+	background: linear-gradient(to bottom right, #74c0fc 0%, #1971c2 30%, #099268);
+	background-repeat: no-repeat;
+	height: 5000px;
+}
+body::after{
+	position: fixed;
+	z-index: -1;
+	content: "";
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background: linear-gradient(to bottom right, #1864ab 0%, rgba(255,255,255,.1) 40%);
+}
+#explicacion {
+	height: 4600px;
+	margin-top: -50px;
+}
+.articulo {
+	width: 80%;
+	height: 400px;
+	margin: auto;
+	margin-bottom: 40px; 
+	background: linear-gradient(to bottom right, #ffe066 0%, #f08c00 80%);
+	display:block;
+	box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+}
+.nombre {
+	position: relative;
+	height: 100px;
+	background-color: #f1f3f5; 
+	box-shadow: inset 0px -1px 0px gray;
+}
+.nombre > h2{
+	line-height: 100px;
+	font-weight: bold;
+	font-size: 2.3vw;
+	margin-left: 5%;
+}
+.descripcion{
+	position: relative;
+	height: 230px;
+	margin-right: auto;
+	background-color: #f1f3f5;
+	width: 35%;
+	padding: 35px 35px;
+}
+.descripcion > h4 {
+	font-size: 1.7ex;
+	text-align: justify;
+}

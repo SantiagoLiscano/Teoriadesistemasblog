@@ -1,0 +1,135 @@
+* {
+	margin: 0px;
+	color: #343a40;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background: linear-gradient(to bottom right, #74c0fc 0%, #1971c2 30%, #099268);
+	background-repeat: no-repeat;
+	height: 5000px;
+}
+body::after{
+	position: fixed;
+	z-index: -1;
+	content: "";
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background: linear-gradient(to bottom right, #1864ab 0%, rgba(255,255,255,.1) 40%);
+}
+header {
+	/*border-bottom: 4px #e7f5ff solid;*/
+	position: absolute;
+}
+header ul{
+	/*background-color: green;*/
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+	margin-left: 0;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a {
+	height: 1.4vw;
+	line-height: 1.4vw;
+	text-align: center;
+	width: 120px;
+	/*background-color: red;*/
+	margin: 20px 10px 0 10px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 1.4vw;
+	border-radius: 0 0 10px 10px;
+}
+
+header ul li a:hover {
+	transition: 0.2s;
+	font-size: 1.45vw;
+}
+
+#banner {
+	padding-top: 100px;
+	height:200px;
+	text-align: center;
+	}
+
+#banner h1, h3 {
+	text-rendering: optimizeSpeed;
+	line-height: 60px;
+	/*background-color: green;*/
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+	letter-spacing: .05em;
+}
+#banner h3 {
+	line-height: initial;
+	font-size: 15px;
+	
+}
+
+footer{
+	box-shadow: 0px -5px 20px rgba(0,0,0,.3);	
+	height: 200px;
+	background-color: #212529;
+	position: relative;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23343a40' fill-opacity='0.49' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");	
+}
+h6{
+	color: white;
+	letter-spacing: .2ex;
+	font-weight: lighter;
+}
+#autor{
+	height: 20%;
+	text-align: center; 
+	position: relative;
+	top:  80%;
+}
+#autor h6:nth-child(3){
+	position: absolute;
+	display: block;
+	top: 45%;
+	right: 0;
+	margin-right: 1%;
+
+}
+#enlaces{
+	display: flex;
+	align-items: center;
+	margin-left: 5%;
+	height: 100%;
+	position: absolute;
+}
+#enlaces ul li{
+	color: white;
+}
+
+#enlaces ul li:nth-child(1), li:nth-child(2){
+	margin-bottom: 5px;
+}
+#enlaces ul li a{
+	color: white;
+	text-decoration: none;
+}
+#enlaces ul li a:hover{
+	transition: 0.2s;
+	height: 45px;
+	font-size: 1.85ex;	
+}
+@media screen and (min-width: 1600px){
+		header ul li a {
+			width: 8vw;
+			font-size: 1.2vw;
+		}
+	}
+@media screen and (min-width: 2560px){
+	header ul li a {
+		width: 8vw;
+		font-size: 1.1vw;
+	}
+}
