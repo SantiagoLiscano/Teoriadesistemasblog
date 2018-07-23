@@ -5,5 +5,12 @@ body{
 #explicacion {
 	height: 1400px;
 	margin-top: -50px;
+	text-align: center;
 }
+
+#explicacion p {
+	color: white;
+}
+
+
 
