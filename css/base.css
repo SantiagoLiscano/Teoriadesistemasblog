@@ -22,33 +22,29 @@ header {
 	position: absolute;
 }
 header ul{
+	display: flex;
+	flex-direction: row;
 	/*background-color: green;*/
-	margin: 0px;
 	list-style: none;
 	padding: 0px;
-	margin-left: 0;
-}
-header ul li{
-	display: inline-block;
 }
 header ul li a {
-	height: 1.4vw;
-	line-height: 1.4vw;
-	text-align: center;
+	justify-content: center;
+	line-height: 180%;
 	width: 120px;
 	/*background-color: red;*/
 	margin: 20px 10px 0 10px;
-	display: inline-block;
+	display: flex;
 	text-decoration: none;
-	color: white;
+	color:#f8f9fa;
 	font-weight: bold;
-	font-size: 1.4vw;
+	font-size: 1.1em;
 	border-radius: 0 0 10px 10px;
 }
 
 header ul li a:hover {
-	transition: 0.2s;
-	font-size: 1.45vw;
+	transition: 0.1s;
+	color: #e9ecef;
 }
 
 #banner {
@@ -121,15 +117,59 @@ h6{
 	height: 45px;
 	font-size: 1.85ex;	
 }
+@media screen and (max-width: 960px){
+	header{
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+	footer #autor {
+		top: 75%;
+	}
+	footer #autor h6 {
+		font-size: .6em;
+	}
+	footer #autor h6:nth-child(3){
+		position: initial;
+	} 
+}
+@media screen and (max-width: 560px){
+	header ul li a {
+		margin: 20px 5px 0px 5px;
+		width: 105px;
+	}
+	footer #enlaces{
+		width: 100%;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+	}
+	footer #enlaces ul{
+		list-style: none;
+		padding: 0;
+	}
+	footer #enlaces ul li{
+		display: inline-block;
+		margin: 0 10px;	
+	}
+	footer #autor{
+		top: 80%;
+	}
+	footer #autor h6:nth-child(3), h6:nth-last-child(2){
+		display: none;
+	}
+}
+
 @media screen and (min-width: 1600px){
-		header ul li a {
-			width: 8vw;
-			font-size: 1.2vw;
-		}
+	header ul li a {
+		font-size: 1.5em;
+		width: 160px;
+	}	
 	}
 @media screen and (min-width: 2560px){
 	header ul li a {
-		width: 8vw;
-		font-size: 1.1vw;
+		font-size: 2em;
+		width: 230px;
 	}
 }

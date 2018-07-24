@@ -38,7 +38,8 @@ body{
 	height: 70%;
 	background-color: #dee2e6;
 	margin: 0 5px;
-	padding-top: 5%;
+	padding-top: 2%;
+	overflow: hidden;
 }
 .persona:nth-child(1) {
 	border-radius: 0 0 0 20px;
@@ -47,9 +48,12 @@ body{
 .persona:nth-child(4){
 	border-radius: 0 0 20px 0;
 }
+.persona .texto{
+	padding: 10px 10px;
+}
 .persona .texto h3 {
 	color: black;
-	font-size: 1vw;
+	font-size: .7em;
 	line-height: 20px;
 	text-align: justify;
 }
@@ -84,34 +88,75 @@ body{
 	height: 200px;
 	filter: brightness(.95);
 }
-.texto{
+#eslogan .textologo{
 	padding-top: 25px;
 	width: 85%;
 	margin:auto;
 	box-shadow: inset 0px 1px 0px rgba(255,255,255,.1);
 }
-#eslogan .texto h3{
+#eslogan .textologo	h3{
 	font-size: 20px;
 	text-align: center;
 	color:#dee2e6;
 }
-@media screen and (min-width: 1920px){
-	.persona{
-		width: 25%;
-		height: 65%;
+@media screen and (min-width: 1024px){
+	.persona .texto {
+		padding: 15px 10px; 
 	}
+}
+@media screen and (min-width: 1280px){
+	.persona{
+		padding-top: 4%;
+	}
+	.persona .texto{
+		padding: 15px 15px;
+	}	
 	.persona .texto h3 {
-	font-size: .95vw;
-	line-height: 23px;
+		font-size: .8em;
+		line-height: 21px; 
+	}
 }
+@media screen and (min-width: 1440px){
+	.persona .texto h3 {
+		font-size: .9em; 
+	}
+}
+@media screen and (min-width: 1600px){
+	.persona .texto h3 {
+		line-height: 24px; 
+	}
 }
 @media screen and (min-width: 1920px){
-	.persona{
-		width: 25%;
-		height: 75%;
-		padding-top: 3%;
-	}
 	#saludo{
 		padding-top: 3%;
+	}
+	.persona{
+		width: 25%;
+		height: 75%; 
+	}
+	.persona .texto{
+		padding: 15px 20px;
+	}
+	.persona .texto h3 {
+		font-size: 1em;
+		line-height: 28px;
+	}
+}
+@media screen and (min-width: 2560px){
+	#presentacion{
+		width: 70%;
+	}
+		#saludo{
+		padding-top: 2.5%;
+	}
+	.persona{
+		padding-top: 2%;
+	}	
+	.persona .texto{
+		padding: 10px 25px;
+	}
+	.persona .texto h3 {
+		font-size: 1.1em;
+		line-height: 27px; 
 	}
 }
