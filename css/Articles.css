@@ -138,6 +138,9 @@ body::after{
 	}
 }
 @media screen and (min-width: 400px) and (max-width: 560px){
+	.articulo{
+		width: 80%;
+	}	
 	.nombre {
 		text-align: center;
 	}
