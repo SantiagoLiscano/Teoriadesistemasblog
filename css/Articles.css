@@ -107,10 +107,12 @@ body::after{
 	}
 	.nombre{
 		height: 50px;
+		text-align: center;
 	}
 	.nombre > h2{
 		line-height: 50px;
-		font-size: .9em;
+		font-size: .75em;
+		margin: 0;
 	}
 	.articulo::nth-child(2) .nombre > h2{
 		font-size: .1em;
@@ -133,6 +135,17 @@ body::after{
 	}
 	.land figure img{
 		height: 200px;
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 560px){
+	.nombre h2{
+		font-size: .9em;
+	}
+}
+@media screen and (max-width: 360px){
+	.descripcion > h4 {
+		font-size: .56em;
+		text-align: justify;
 	}
 }
 @media screen and (min-width: 1024px){
