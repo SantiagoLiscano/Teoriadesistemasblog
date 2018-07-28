@@ -20,6 +20,7 @@ body::after{
 header {
 	/*border-bottom: 4px #e7f5ff solid;*/
 	position: absolute;
+	overflow: hidden;
 }
 header ul{
 	display: flex;
@@ -49,7 +50,7 @@ header ul li a:hover {
 
 #banner {
 	padding-top: 100px;
-	height:200px;
+	height:150px;
 	text-align: center;
 	}
 
@@ -135,6 +136,9 @@ h6{
 	} 
 }
 @media screen and (max-width: 560px){
+	#banner {
+		height:225px;
+	}
 	header ul li a {
 		margin: 20px 5px 0px 5px;
 		width: 105px;
@@ -167,9 +171,29 @@ h6{
 		width: 160px;
 	}	
 	}
+@media screen and (min-width: 1920px){
+	#enlaces{
+		font-size: 1.3rem;
+	}
+	#autor{
+		top: 75%;
+	}
+	#autor h6{
+		font-size: 1rem;
+	}
+}
 @media screen and (min-width: 2560px){
 	header ul li a {
 		font-size: 2em;
 		width: 230px;
+	}
+	#enlaces{
+		font-size: 1.6rem;
+	}
+	#autor{
+		top: 70%;
+	}
+	#autor h6{
+		font-size: 1.1rem;
 	}
 }

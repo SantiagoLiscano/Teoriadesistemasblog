@@ -74,6 +74,9 @@ body::after{
 	filter: brightness(.9)
 }
 @media screen and (max-width: 920px){
+	#banner{
+		margin-bottom: 10px;
+	}
 	.articulo{
 		height: 250px;
 		width: 90%;
@@ -137,19 +140,7 @@ body::after{
 		height: 200px;
 	}
 }
-@media screen and (min-width: 400px) and (max-width: 560px){
-	.articulo{
-		width: 80%;
-	}	
-	.nombre {
-		text-align: center;
-	}
-	.nombre h2{
-		font-size: .75em;
-		margin: 0;
-	}
-}
-@media screen and (max-width: 320px){
+@media screen and (max-width: 364px){
 	.nombre {
 		text-align: center;
 	}
@@ -160,6 +151,22 @@ body::after{
 	.descripcion > h4 {
 		font-size: .62em;
 		text-align: justify;
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 560px){
+	#banner{
+		margin-bottom: 0px;
+		height: 175px;
+	}
+		.articulo{
+		width: 80%;
+	}	
+	.nombre {
+		text-align: center;
+	}
+	.nombre h2{
+		font-size: .75em;
+		margin: 0;
 	}
 }
 @media screen and (min-width: 1024px){
@@ -206,5 +213,6 @@ body::after{
 	}
 	.descripcion h4{
 		font-size: 1.3em;
-	}	
+	}
 }
+
