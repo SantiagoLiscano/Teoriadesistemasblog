@@ -123,14 +123,14 @@ body{
 	height: 100%;
 }
 @keyframes slider {
-	20%{margin-left: 0px;}
-	22%{margin-left: -100%}
-	40%{margin-left: -100%}
-	42%{margin-left: -200%}
-	60%{margin-left: -200%}
-	62%{margin-left: -300%}
-	80%{margin-left: -300%}
-	82%{margin-left: -400%}
+	25%{margin-left: 0px;}
+	25.8%{margin-left: -100%}
+	50%{margin-left: -100%}
+	50.8%{margin-left: -200%}
+	75%{margin-left: -200%}
+	75.8%{margin-left: -300%}
+	99%{margin-left: -300%}
+	99.8%{margin-left: -400%}
 	100%{margin-left: -400%}
 }
 
