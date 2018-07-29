@@ -1,0 +1,99 @@
+#contenido #texto > ul,ol{
+    margin: 30px;
+    padding: 20px;
+}
+
+#contenido #texto > ul li{
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 1440px){
+    body{
+        height: 3200px;
+    }
+    #contenido{
+        height: 3200px;
+    }
+}
+@media screen and (max-width: 1024px){
+    body{
+        height: 3650px;
+    }
+    #contenido{
+        height: 3650px;
+    }
+}
+@media screen and (max-width: 800px){
+    body{
+        height: 4150px;
+    }
+    #contenido #texto{
+        padding: 2rem;
+    }
+    #contenido{
+        height: 4150px;
+    }
+}
+@media screen and (max-width: 640px){
+    body{
+        height: 4700px;
+    }
+    #contenido{
+        height: 4700px;
+    }
+    #contenido #texto{
+        padding: 1rem;
+    }
+    #represent{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 400px){
+    body{
+        height: 6600px;
+    }
+    #contenido{
+        height: 6600px;
+    }
+}
+@media screen and (max-width: 350px){
+    body{
+        height: 7600px;
+    }
+    #contenido{
+        height: 7600px;
+    }
+}
+@media screen and (max-width: 320px){
+    body{
+        height: 8200px;
+    }
+    #contenido{
+        height: 8200px;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1920px){
+    body{
+        height: 3200px;
+    }
+    #contenido{
+        height: 3200px;
+    }
+    #contenido #texto{
+        padding: 6rem;
+    }
+    #contenido #texto p{
+        margin: 50px 20px;
+    }
+    #contenido #texto > strong:nth-of-type(3){
+        margin-bottom: 100px;
+        display: block;
+    }
+    #contenido #texto > strong:nth-of-type(1){
+        width: 50%;
+    }
+    #represent{
+        width: 50%;
+        margin: auto;
+    }
+}

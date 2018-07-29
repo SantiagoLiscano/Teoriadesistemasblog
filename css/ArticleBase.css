@@ -21,8 +21,27 @@ body{
 	background-color: rgba(255,255,255,.9);
 	/*border-radius: 50px;*/
     box-shadow: 5px 5px 30px rgba(0,0,0,.3);
-    padding: 15px;
+    padding: 3rem;
     box-sizing: border-box; 
+}
+#contenido #texto > ul,ol{
+    margin: 20px;
+    padding: 10px;
+}
+#contenido #texto li{
+    margin-bottom: 15px;
+}
+#contenido #texto li:last-child{
+    margin-bottom: 0px;
+}
+#contenido #texto ol li{
+    text-indent: 10px;
+    text-align: justify;
+}
+#contenido #texto > p{
+    margin: 30px 0;
+    text-align: justify;
+    text-indent: 50px;
 }
 #contenido #texto #atras{
     width: 60px;
@@ -41,6 +60,7 @@ body{
     color: #228be6;
     background-color: #ced4da;
 }
+
 @media screen and (max-width: 816px){
     #contenido #banner h1{
         font-size: 4vw; 
