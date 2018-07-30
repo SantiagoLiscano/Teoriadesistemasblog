@@ -35,10 +35,10 @@
 }
 @media screen and (max-width: 640px){
     body{
-        height: 4700px;
+        height: 6500px;
     }
     #contenido{
-        height: 4700px;
+        height: 6500px;
     }
     #contenido #texto{
         padding: 1rem;
@@ -50,10 +50,10 @@
 }
 @media screen and (max-width: 400px){
     body{
-        height: 6600px;
+        height: 7200px;
     }
     #contenido{
-        height: 6600px;
+        height: 7200px;
     }
 }
 @media screen and (max-width: 350px){
@@ -74,10 +74,10 @@
 }
 @media screen and (min-width: 1600px) and (max-width: 1920px){
     body{
-        height: 3200px;
+        height: 3650px;
     }
     #contenido{
-        height: 3200px;
+        height: 3650px;
     }
     #contenido #texto{
         padding: 6rem;

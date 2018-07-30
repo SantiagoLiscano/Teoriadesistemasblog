@@ -1,0 +1,104 @@
+body{
+    height: 3500px;
+}
+#contenido{
+    height: 3500px;
+}
+figure img{
+    display: block;
+    margin: 50px;
+}
+figure:first-of-type img{
+    margin: auto;
+}
+ul:nth-of-type(2) li, ul:nth-of-type(3) li{
+   padding-bottom: 10px;
+}
+
+ul:first-of-type li:first-child p{
+    margin-bottom: 20px;
+}
+p:nth-last-of-type(2) strong{
+    display: inline-block;
+    text-align: center;
+    text-indent: 0;
+    background-color: #1971c2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+@media screen and (max-width: 1024px){
+    body{
+        height: 3700px;
+    }
+    #contenido{
+        height: 3700px;
+    }
+}
+@media screen and (max-width: 800px){
+    body{
+        height: 4450px;
+    }
+    #contenido #texto{
+        padding: 2rem;
+    }
+    figure:first-of-type img{
+        display: block;
+        width: 90%;
+    }
+    #contenido{
+        height: 4450px;
+    }
+}
+@media screen and (max-width: 640px){
+    body{
+        height: 6300px;
+    }
+    #contenido{
+        height: 6300px;
+    }
+    #contenido #texto{
+        padding: 1rem;
+    }
+    #represent{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 400px){
+    body{
+        height: 7100px;
+    }
+    #contenido{
+        height: 7100px;
+    }
+    figure img{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 350px){
+    body{
+        height: 8100px;
+    }
+    #contenido{
+        height: 8100px;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1920px){
+    body{
+        height: 3900px;
+    }
+    #contenido{
+        height: 3900px;
+    }
+    #contenido #texto{
+        padding: 6rem;
+    }
+    #contenido #texto p{
+        margin: 50px 20px;
+    }
+    #represent{
+        width: 50%;
+        margin: auto;
+    }
+}

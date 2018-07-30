@@ -24,9 +24,10 @@ body{
     padding: 3rem;
     box-sizing: border-box; 
 }
-#contenido #texto > ul,ol{
+#contenido #texto > ul, ol{
     margin: 20px;
     padding: 10px;
+    text-align: justify;
 }
 #contenido #texto li{
     margin-bottom: 15px;
@@ -41,7 +42,7 @@ body{
 #contenido #texto > p{
     margin: 30px 0;
     text-align: justify;
-    text-indent: 50px;
+    text-indent: 35px;
 }
 #contenido #texto #atras{
     width: 60px;

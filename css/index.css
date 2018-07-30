@@ -134,6 +134,15 @@ body{
 	100%{margin-left: -400%}
 }
 
+@media screen and (max-width: 1024px){
+	#introduccion .int:nth-child(1){
+		height: 100%;
+	}
+	#introduccion .int:nth-child(1) p{
+		font-size: 1.2rem;	
+	}
+}
+
 @media screen and (max-width: 560px){
 	body{
 		height: 1100px;
@@ -192,8 +201,30 @@ body{
 		width: 35%;
 		height: 35%;
 	}
+
 }
-@media screen and (min-width:560px) and (max-width: 800px){
+@media screen and (min-width:800px) and (max-width: 900px){
+	#introduccion .int:nth-child(1){
+		height: 75%;
+		padding: .4rem;
+	}
+	#introduccion .int:nth-child(1) p{
+		padding: 0 1rem;
+		font-size: 	.8rem;	
+	}
+}
+@media screen and (min-width:700px) and (max-width: 800px){
+	#introduccion .int:nth-child(1){
+		height: 75%;
+		padding: .2rem;
+	}
+	#introduccion .int:nth-child(1) p{
+		padding: 0 1rem;
+		font-size: 1rem;	
+	}
+}
+
+@media screen and (min-width:560px) and (max-width: 700px){
 	body{
 		height: 1400px;
 	}
@@ -229,11 +260,11 @@ body{
 	}
 	#introduccion .int:nth-child(1){
 		height: 100%;
-		padding: 1rem;
+		padding: .4rem;
 	}
 	#introduccion .int:nth-child(1) p{
 		padding: 0 1rem;
-		font-size: .8rem;	
+		font-size: .9rem;	
 	}
 	#introduccion .int:nth-child(1) p:nth-of-type(2){
 		margin-top: 20px;
