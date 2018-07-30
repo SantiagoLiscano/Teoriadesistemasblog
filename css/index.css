@@ -276,7 +276,7 @@ body{
 }
 @media screen and (width: 320px){
 	#introduccion .int:nth-child(1){
-		margin-bottom: 60px;
+		margin-bottom: 80px;
 	}
 }
 @media screen and (min-width: 1440px){

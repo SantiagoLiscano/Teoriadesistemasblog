@@ -148,8 +148,11 @@ body::after{
 		font-size: .7em;
 		margin: 0;
 	}
+	.descripcion{
+		height: 170px;
+	}
 	.descripcion > h4 {
-		font-size: .62em;
+		font-size: .6em;
 		text-align: justify;
 	}
 }
